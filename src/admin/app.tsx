@@ -1,16 +1,10 @@
-import logo from "./extensions/favicon.png";
-
 const config = {
-  head:{
-    favicon: logo,
-  },
-
   translations: {
     en: {
       "app.components.LeftMenu.navbrand.title": "Wongames",
-      "app.components.LeftMenu.navbrand.workplace": "Testing",
-      "Auth.form.welcome.title": "Welcome auth title",
-      "Auth.form.welcome.subtitle": "Welcome auth subtitle",
+      "app.components.LeftMenu.navbrand.workplace": "Dashboard",
+      "Auth.form.welcome.title": "Welcome to Wongames API",
+      "Auth.form.welcome.subtitle": "Discover different games!",
       "Settings.profile.form.section.experience.interfaceLanguageHelp":
       "This is interface language help",
     },
@@ -18,7 +12,7 @@ const config = {
   tutorials: false,
 };
 
-const bootstrap = (app) => {
+const bootstrap = (app:any) => {
   console.log(app);
 }
 
